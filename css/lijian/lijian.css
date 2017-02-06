@@ -213,7 +213,7 @@ img{
     width: 20px;
     height: 15px;
 }
-.arrow-down {
+.arrow-down,.arrow-index{
     zoom: .8;
     position: fixed;
     bottom: 0;
