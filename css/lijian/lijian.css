@@ -213,6 +213,11 @@ img{
     width: 20px;
     height: 15px;
 }
+.arrow-box img{
+    display: block;
+    width: 20px;
+    height: 15px;
+}
 .arrow-down {
     zoom: .8;
     position: fixed;
