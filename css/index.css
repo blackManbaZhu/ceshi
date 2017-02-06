@@ -28,13 +28,13 @@ img{max-width:100% !important;height:auto !important;}
 .swiper-slide-v{
     width:100%;
     height:100%;
-    background-image: url(../img/shouye_bj.png);
+    background-image: url(../img/shouye_bj.jpg);
     background-size: 100% 100%;
     overflow:hidden;
 }
-img{
-    display:block;
-}
+/*img{*/
+    /*display:block;*/
+/*}*/
 .swiper-pagination-bullet {
     width: 6px;
     height: 6px;
