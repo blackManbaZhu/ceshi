@@ -15,6 +15,7 @@ body{
     font-family:"microsoft yahei";
     background: #fff;
 }
+img{max-width:100% !important;height:auto !important;}
 #swiper-container-v {
     /*  width: 320px;
       height: 480px;*/
