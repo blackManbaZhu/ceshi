@@ -28,6 +28,10 @@ body{
     background: #1b6d85;
     overflow:hidden;
 }
+.swiper-slide-jieshouye{
+    background-image: url(../../img/jieshao_bj.png);
+    background-size: 100% 100%;
+}
 .swiper-slide1{
     background-image: url(../../img/lj_01.png);
     background-size: 100% 100%;
