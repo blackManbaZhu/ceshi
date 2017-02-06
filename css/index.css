@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+    margin:0;
+    padding:0;
+}
+html,body{
+    height:100%;
+}
+li{
+    list-style:none;
+}
+body{
+    font-family:"microsoft yahei";
+    background: #fff;
+}
+#swiper-container-v {
+    /*  width: 320px;
+      height: 480px;*/
+    width: 100%;
+    max-width:640px;
+    min-width: 320px;
+    height: 100%;
+}
+
+.swiper-slide-v{
+    width:100%;
+    height:100%;
+    background-image: url(../img/shouye_bj.png);
+    background-size: 100% 100%;
+    overflow:hidden;
+}
+img{
+    display:block;
+}
+.swiper-pagination-bullet {
+    width: 6px;
+    height: 6px;
+    background: #fff;
+    opacity: .4;
+}
+.swiper-pagination-bullet-active {
+    opacity: 1;
+}
+@-webkit-keyframes loading{0%{-webkit-transform:rotate(0deg)}100%{-webkit-transform:rotate(360deg)}}
+@keyframes loading{0%{-webkit-transform:rotate(0deg)}100%{-webkit-transform:rotate(360deg)}}
+.loading{-webkit-animation-name:loading;animation-name:loading}
+.poster_wrap {
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transition: -webkit-transform .3s linear,opacity .3s linear;
+}
+.djck_box{
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    margin-top: 480px;
+}
+.poster_btn{
+    width: 200px;
+    height: 40px;
+    background-color: #24B0E3;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+.index-title{
+    width: 85%;
+    height: 300px;
+    margin: 40px auto;
+    border: 1px solid red;
+}
